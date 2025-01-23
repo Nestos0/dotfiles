@@ -1,0 +1,275 @@
+cat .zshrc
+cp ./backup/* ./ -r
+cp ./backup/.* ./ -r
+a
+arst
+source ~/.config/zsh/zshrc
+cd ~/.config
+rgi
+cd joshuto
+vim run_joshuto.sh
+which ra
+cd ..
+cd zsh
+vim aliases.zsh
+nvim .zshrc
+mv .zshrc ~/.config/zsh/
+source ~/.config/zsh/.zshrc
+cd .
+cd backup
+la
+exa -a
+mv .zim ../
+mv .zimrc ..
+zimfw install
+zimfw
+zimfw upgrade
+cd
+su
+cd 
+ls -a
+exit
+vim .zim
+vim ~/.config/zsh/zshrc
+vim ~/.config/zsh/plugins.zsh
+z
+ra
+cd ~/.config/zsh
+vim .zimrc
+zimfw int
+zimfw init
+zimfw list
+vim .zshrc
+cd .zim/modules/z.lua
+cd .zim/modules/
+ls
+: 1706419759:0;cd .zim/modules/
+: 1706419767:0;cd ~/.config/zsh
+: 1706419768:0;vim .zshrc
+: 1706419821:0;cd ~/.config/zsh
+: 1706419826:0;vim .zimrc
+: 1706419845:0;zimfw init
+: 1706419915:0;cd
+: 1706419926:0;cd git/dwm
+: 1706419927:0;ls
+: 1706419961:0;vim rofi
+: 1706419963:0;vim rofi.sh
+: 1706419975:0;ls
+: 1706419977:0;./autostart.sh
+: 1706420044:0;ls
+: 1706420051:0;rm backup
+: 1706420054:0;cd git
+: 1706420055:0;ls
+: 1706420089:0;git clone https://gitee.com/nestos/dotfiles
+: 1706420095:0;cd dotfiles
+: 1706420095:0;ls
+: 1706420101:0;cd .config
+: 1706420101:0;ls
+: 1706420110:0;cp fcitx5 ~/.config/
+: 1706420113:0;cp fcitx5 ~/.config/ -r
+: 1706420379:0;cd ~/.config/zsh
+: 1706420384:0;vim fzf.zsh
+: 1706420407:0;rgi
+: 1706420535:0;ls
+: 1706420536:0;cd
+: 1706420537:0;ls
+: 1706420538:0;cd git
+: 1706420538:0;ls
+: 1706420542:0;git clone https://github.com/adi1090x/rofi.git
+: 1706420552:0;ra
+: 1706420567:0;ls
+: 1706420585:0;cd dwm-dotfiles
+: 1706420598:0;ls
+: 1706420599:0;ra
+: 1706420612:0;cd ..
+: 1706420615:0;cd dotfiles-main
+: 1706420617:0;ls
+: 1706420628:0;ra
+: 1706420662:0;cd rofi
+: 1706420663:0;ls
+: 1706420667:0;./bin/launcher
+: 1706420674:0;cd ..
+: 1706420674:0;ls
+: 1706420681:0;cp rofi ~/.config/
+: 1706420684:0;cp rofi ~/.config/ -r
+: 1706420690:0;ls
+: 1706420694:0;cd ~/.config/rofi
+: 1706420695:0;ls
+: 1706420697:0;ra
+: 1706420708:0;./bin/launcher
+: 1706420723:0;cd
+: 1706420724:0;cd git
+: 1706420725:0;ls
+: 1706420729:0;cd dwm
+: 1706420730:0;ls
+: 1706420733:0;ra
+: 1706420943:0;~/.config/rofi/bin/powermenu
+: 1706420987:0;~/.config/rofi/powermenu/type-1/powermenu.sh
+: 1706421001:0;~/.config/rofi/powermenu/type-2/powermenu.sh
+: 1706421006:0;~/.config/rofi/powermenu/type-3/powermenu.sh
+: 1706421023:0;~/.config/rofi/launchers/type-2/launcher.sh
+: 1706421035:0;~/.config/rofi/powermenu/type-6/powermenu.sh
+: 1706421050:0;~/.config/rofi/powermenu/type-5/powermenu.sh
+: 1706421095:0;~/.config/rofi/bin/powermenu
+: 1706421105:0;cd ~/.config/rofi/bin
+: 1706421106:0;ls
+: 1706421108:0;vim powermenu
+: 1706421161:0;./powermenu
+: 1706421164:0;ls
+: 1706421168:0;vim powermenu
+: 1706421274:0;ls
+: 1706421276:0;./autostart.sh
+: 1706421286:0;reboot
+: 1706421415:0;ud
+: 1706421417:0;ls
+: 1706421436:0;cd ~/git/dwm
+: 1706421437:0;ls
+: 1706421450:0;./autostart.sh
+: 1706421479:0;ls
+: 1706421503:0;paru
+: 1706421563:0;ls
+: 1706421595:0;vim ~/.config/zsh/.zshrc
+: 1706421638:0;echo $LANG
+: 1706421720:0;la
+: 1706421721:0;ls
+: 1706421735:0;vim ~/.config/zsh/aliases.zsh
+: 1706421747:0;g
+: 1706421751:0;paru -S onefetch
+: 1706421809:0;g
+: 1706421856:0;reboot
+: 1706421933:0;ud
+: 1706421935:0;ls
+: 1706421937:0;cd ~/git/dwm
+: 1706421946:0;sudo make install
+: 1706421953:0;ls
+: 1706421957:0;./autostart.sh
+: 1706421969:0;ls
+: 1706421974:0;cd git/
+: 1706421975:0;ls
+: 1706421980:0;c
+: 1706421984:0;cd dotfiles-main
+: 1706421985:0;ls
+: 1706421996:0;vim ~/.config/zsh/.dir_history
+: 1706422017:0;ls
+: 1706422099:0;cd git/dwm
+: 1706422099:0;ls
+: 1706422110:0;rm ~/.config/zsh/.dir_history
+: 1706422111:0;ls
+: 1706422128:0;vim autostart.sh
+: 1706422151:0;ra
+: 1706422179:0;cd ~/.config/nvim
+: 1706422179:0;ra
+: 1706422239:0;echo $DWM
+: 1706422249:0;vim ~/.config/zsh/zshrc
+: 1706422253:0;vim ~/.config/zsh/env.zsh
+: 1706422269:0;reboot
+: 1706422354:0;ls
+: 1706422362:0;cd ~/git/dwm
+: 1706422369:0;which cd
+: 1706422382:0;vim ~/.config/zsh/aliases.zsh
+: 1706422411:0;zoxide
+: 1706422418:0;zoxide  
+: 1706422429:0;z
+: 1706422430:0;ls
+: 1706422432:0;z /
+: 1706422433:0;ls
+: 1706422792:0;vim ~/.config/zsh/env.zsh
+: 1706422826:0;vim ~/.zshrc
+: 1706422839:0;vim ~/.config/zsh/.zshrc
+: 1706422844:0;vim ~/.zshrc
+: 1706422849:0;vim ~/.config/zsh/env.zsh
+: 1706422881:0;vim ~/.config/zsh/.zshrc
+: 1706422898:0;echo $LANG
+: 1706422949:0;vim ~/git/dwm/statusbar/packages/icons.sh
+: 1706423022:0;ls
+: 1706423025:0;cd dotfiles
+: 1706423028:0;ra
+: 1706423030:0;ls
+: 1706423034:0;cd ~/.config/zsh/
+: 1706423034:0;ls
+: 1706423039:0;vim .zimrc
+: 1706423071:0;vim .zshrc
+: 1706423125:0;z
+: 1706423137:0;paru -S zoxide
+: 1706423159:0;zoxide
+: 1706423162:0;zoxide init
+: 1706423167:0;zoxide init /bin/zsh
+: 1706423174:0;zoxide init zsh
+: 1706423188:0;z
+: 1706423202:0;_zoxide
+: 1706423223:0;vim ~/.config/zsh/aliases.zsh
+: 1706423256:0;z
+: 1706423281:0;cd ~/.config/zsh/
+: 1706423283:0;ra
+: 1706423333:0;cd 
+: 1706423337:0;which cd
+: 1706423340:0;vim ~/.config/zsh/aliases.zsh
+: 1706423416:0;rm ~/.local/state/nvim/swap
+: 1706423420:0;vim ~/.config/zsh/aliases.zsh
+: 1706423471:0;z
+: 1706423473:0;z Documents
+: 1706423473:0;ls
+: 1706423475:0;cd ..
+: 1706423475:0;ls
+: 1706423482:0;which cd
+: 1706423485:0;which z
+: 1706423496:0;ra
+: 1706423571:0;cd dot
+: 1706423573:0;ls
+: 1706423578:0;rgi
+: 1706423617:0;vim ~/.config/zsh/fzf.zsh
+: 1706423644:0;vim +call -h
+: 1706423679:0;rgi
+: 1706423693:0;vim +call -h
+: 1706423775:0;cd
+: 1706423780:0;vim .zsh_history
+: 1706423788:0;vim .zshenv
+: 1706423795:0;rm .zshenv
+: 1706423796:0;:w
+: 1706423872:0;rgi
+: 1706423935:0;cd
+: 1706423936:0;rgi
+: 1706423968:0;fzf
+: 1706424023:0;cd git
+: 1706424023:0;ls
+: 1706424025:0;cd rofi
+: 1706424025:0;ls
+: 1706424028:0;ra
+: 1706424033:0;cd previews
+: 1706424033:0;ls
+: 1706424037:0;cd powermenu
+: 1706424038:0;ls
+: 1706424039:0;ra
+: 1706424087:0;ls
+: 1706424088:0;cd ..
+: 1706424089:0;ls
+: 1706424101:0;cd ..
+: 1706424102:0;ls
+: 1706424108:0;./files/powermenu/type-1/powermenu.sh
+: 1706424120:0;paru -S hostname
+: 1706424126:0;ra
+: 1706424143:0;hostname
+: 1706424233:0;paru -S man-pages-zn_cn
+: 1706424237:0;paru -S man-pages-zh_cn
+: 1706424250:0;hostname
+: 1706424330:0;cd
+: 1706424331:0;cd /bin
+: 1706424336:0;./hostname
+: 1706424477:0;paru -S gettext-hostname
+: 1706424556:0;sudo pacman -S inetutils
+: 1706424561:0;hostname
+: 1706424632:0;notify-send "ast"
+: 1706424735:0;ls
+: 1706424743:0;vim ~/.config/zsh/zimrc
+: 1706424864:0;autopair-init
+: 1706424868:0;vim ~/.config/zsh/zimrc
+: 1706424879:0;vim ~/.config/zsh/.zshrc
+: 1706424920:0;xprop
+: 1706424936:0;dunst
+: 1706424938:0;cd 
+: 1706424940:0;fzf
+: 1706424954:0;cd ~/git/dotfiles-main
+: 1706424955:0;ls
+: 1706425012:0;cp dunst ~/.config/
+: 1706425013:0;cp dunst ~/.config/ -r
+: 1706425019:0;reboot

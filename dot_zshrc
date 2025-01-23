@@ -1,0 +1,86 @@
+setopt HIST_IGNORE_ALL_DUPS
+
+WORDCHARS=${WORDCHARS//[\/]}
+
+ZSH_AUTOSUGGEST_MANUAL_REBIND=1
+
+ZSH_HIGHLIGHT_HIGHLIGHTERS=(main brackets)
+
+# ------------------
+# Initialize modules
+# ------------------
+
+ZIM_HOME=${ZDOTDIR:-${HOME}}/.zim
+# Download zimfw plugin manager if missing.
+if [[ ! -e ${ZIM_HOME}/zimfw.zsh ]]; then
+  if (( ${+commands[curl]} )); then
+    curl -fsSL --create-dirs -o ${ZIM_HOME}/zimfw.zsh \
+        https://mirror.ghproxy.com/https://github.com/zimfw/zimfw/releases/latest/download/zimfw.zsh
+  else
+    mkdir -p ${ZIM_HOME} && wget -nv -O ${ZIM_HOME}/zimfw.zsh \
+        https://mirror.ghproxy.com/https://github.com/zimfw/zimfw/releases/latest/download/zimfw.zsh
+  fi
+fi
+# Install missing modules, and update ${ZIM_HOME}/init.zsh if missing or outdated.
+if [[ ! ${ZIM_HOME}/init.zsh -nt ${ZDOTDIR:-${HOME}}/.zimrc ]]; then
+  source ${ZIM_HOME}/zimfw.zsh init -q
+fi
+
+# Initialize modules.
+source ${ZIM_HOME}/init.zsh
+
+zmodload -F zsh/terminfo +p:terminfo
+# Bind ^[[A/^[[B manually so up/down works both before and after zle-line-init
+for key ('^[[A' '^P' ${terminfo[kcuu1]}) bindkey ${key} history-substring-search-up
+for key ('^[[B' '^N' ${terminfo[kcud1]}) bindkey ${key} history-substring-search-down
+unset key
+
+if [ -f ~/.config/zsh/zshrc ]; then
+    source ~/.config/zsh/zshrc
+fi
+
+
+export https_proxy=http://127.0.0.1:7890
+export http_proxy=https://127.0.0.1:7890
+
+export PATH=/usr/bin/clipboard-provider:$PATH
+export PATH=/home/nestos/.local/share/gem/ruby/3.3.0/bin:$PATH
+export PATH=/home/nestos/.local/bin:$PATH
+
+export QT_IM_MODULE=fcitx
+export SDL_IM_MODULE=fcitx
+export XMODIFIERS=@im=fcitx
+
+eval "$(zoxide init zsh)"
+
+# Always work in a tmux session if tmux is installed
+# Based on https://github.com/chrishunt/dot-files/blob/master/.zshrc
+if [ -z "$TMUX" ]
+then
+   tmux attach -t TMUX || tmux new -s TMUX
+fi
+
+eval "$(starship init zsh)"
+eval 
+        fuck () {
+            TF_PYTHONIOENCODING=$PYTHONIOENCODING;
+            export TF_SHELL=zsh;
+            export TF_ALIAS=fuck;
+            TF_SHELL_ALIASES=$(alias);
+            export TF_SHELL_ALIASES;
+            TF_HISTORY="$(fc -ln -10)";
+            export TF_HISTORY;
+            export PYTHONIOENCODING=utf-8;
+            TF_CMD=$(
+                thefuck THEFUCK_ARGUMENT_PLACEHOLDER $@
+            ) && eval $TF_CMD;
+            unset TF_HISTORY;
+            export PYTHONIOENCODING=$TF_PYTHONIOENCODING;
+            test -n "$TF_CMD" && print -s $TF_CMD
+        }
+        
+export PYENV_ROOT="$HOME/.pyenv"
+export PATH="$PYENV_ROOT/bin:$PATH"
+if command -v pyenv 1>/dev/null 2>&1; then
+  eval "$(pyenv init -)"
+fi
