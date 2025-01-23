@@ -1,0 +1,22 @@
+# Profiles Config for Clash Nyanpasu
+
+current: rHL508z1veHg
+chain: null
+valid:
+- dns
+- unified-delay
+- tcp-concurrent
+items:
+- uid: rHL508z1veHg
+  type: remote
+  name: Jimmm
+  file: rHL508z1veHg.yaml
+  url: http://47.243.59.73/api/v1/client/subscribe?token=9e6b21ddf85812cc3961ad1b718cf1c4
+  extra:
+    upload: 838768102
+    download: 41435205592
+    total: 107374182400
+    expire: 1739084996
+  updated: 1737630112
+  option:
+    update_interval: 1440
