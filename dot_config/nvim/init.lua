@@ -1,5 +1,0 @@
-require("config.lazy")
-require("config.colorscheme")
-require("config.lspconfig")
-require("options")
-require("mappings")
