@@ -40,10 +40,8 @@ if [ -f ~/.config/zsh/zshrc ]; then
 fi
 
 
-export https_proxy=http://127.0.0.1:7890
-export http_proxy=https://127.0.0.1:7890
+# export http_proxy=https://127.0.0.1:7890
 
-export PATH=/usr/bin/clipboard-provider:$PATH
 export PATH=/home/nestos/.local/share/gem/ruby/3.3.0/bin:$PATH
 export PATH=/home/nestos/.local/bin:$PATH
 
@@ -60,27 +58,31 @@ then
    tmux attach -t TMUX || tmux new -s TMUX
 fi
 
-eval "$(starship init zsh)"
 eval 
-        fuck () {
-            TF_PYTHONIOENCODING=$PYTHONIOENCODING;
-            export TF_SHELL=zsh;
-            export TF_ALIAS=fuck;
-            TF_SHELL_ALIASES=$(alias);
-            export TF_SHELL_ALIASES;
-            TF_HISTORY="$(fc -ln -10)";
-            export TF_HISTORY;
-            export PYTHONIOENCODING=utf-8;
-            TF_CMD=$(
-                thefuck THEFUCK_ARGUMENT_PLACEHOLDER $@
-            ) && eval $TF_CMD;
-            unset TF_HISTORY;
-            export PYTHONIOENCODING=$TF_PYTHONIOENCODING;
-            test -n "$TF_CMD" && print -s $TF_CMD
-        }
+fuck () {
+  TF_PYTHONIOENCODING=$PYTHONIOENCODING;
+  export TF_SHELL=zsh;
+  export TF_ALIAS=fuck;
+  TF_SHELL_ALIASES=$(alias);
+  export TF_SHELL_ALIASES;
+  TF_HISTORY="$(fc -ln -10)";
+  export TF_HISTORY;
+  export PYTHONIOENCODING=utf-8;
+  TF_CMD=$(
+      thefuck THEFUCK_ARGUMENT_PLACEHOLDER $@
+  ) && eval $TF_CMD;
+  unset TF_HISTORY;
+  export PYTHONIOENCODING=$TF_PYTHONIOENCODING;
+  test -n "$TF_CMD" && print -s $TF_CMD
+}
         
 export PYENV_ROOT="$HOME/.pyenv"
+[[ -d $PYENV_ROOT/bin ]] && export PATH="$PYENV_ROOT/bin:$PATH"
+eval "$(pyenv init - zsh)"
+
+export PYENV_ROOT="$HOME/.pyenv"
 export PATH="$PYENV_ROOT/bin:$PATH"
-if command -v pyenv 1>/dev/null 2>&1; then
-  eval "$(pyenv init -)"
-fi
+source /usr/share/nvm/init-nvm.sh
+export DISABLE_AUTO_COPY_TO_CLIPBOARD=true
+
+eval "$(starship init zsh)"
