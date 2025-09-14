@@ -1,0 +1,9 @@
+# GIMP gimp-crop-tool options
+
+(aspect-denominator 800)
+(aspect-numerator 600)
+(foreground
+    (color "HSVA float" 16 "\0\0\0\0\0\0\0\0\0\0\200\77\0\0\200\77" 0))
+(pattern "剪贴板图像 副本")
+
+# end of gimp-crop-tool options

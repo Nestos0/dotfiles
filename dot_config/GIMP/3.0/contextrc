@@ -1,0 +1,16 @@
+# GIMP user context
+
+(tool "gimp-operation-tool")
+(paint-info "gimp-paintbrush")
+(foreground
+    (color "HSVA float" 16 "\0\0\0\0\0\0\0\0\0\0\200\77\0\0\200\77" 0))
+(brush "剪贴板蒙版")
+(dynamics "Pressure Size")
+(mybrush "4H pencil")
+(pattern "剪贴板图像 副本")
+(gradient "前景到背景（RGB）")
+(palette "China")
+(font "Monospace")
+(tool-preset "Core Pointer")
+
+# end of user context

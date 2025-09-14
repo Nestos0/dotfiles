@@ -1,0 +1,20 @@
+# GIMP action-history
+
+(history-item "layers-edit-attributes" 1)
+(history-item "edit-clear" 1)
+(history-item "tools-zoom" 1)
+(history-item "layers-alpha-add" 0)
+(history-item "file-quit" 1)
+(history-item "file-open" 0)
+(history-item "tools-free-select" 1)
+(history-item "layers-new" 0)
+(history-item "documents-open" 0)
+(history-item "file-export-as" 0)
+(history-item "image-new" 0)
+(history-item "filters-invert-perceptual" 1)
+(history-item "filters-color-balance" 0)
+(history-item "layers-new-group" 0)
+(history-item "layers-delete" 0)
+(history-item "dialogs-document-history" 1)
+
+# end of action-history

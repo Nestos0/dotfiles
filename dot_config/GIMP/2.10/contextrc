@@ -1,0 +1,15 @@
+# GIMP user context
+
+(tool "gimp-paintbrush-tool")
+(paint-info "gimp-paintbrush")
+(foreground (color-rgb 1 1 1))
+(brush "2. Hardness 075")
+(dynamics "Dynamics Off")
+(mybrush "100% Opaque")
+(pattern "剪贴板图像")
+(gradient "前景到背景（RGB）")
+(palette "颜色历史")
+(font "Sans-serif")
+(tool-preset "Core Pointer")
+
+# end of user context

@@ -1,0 +1,457 @@
+vim zimrc
+rgi
+vim ~/.zimrc
+vim completion.zsh
+cd ~
+vim .zimrc
+zimfw 
+zimfw clean
+zimfw install
+zimfw init
+which cd
+zoxide
+cd do
+sudo -E configuration.nix
+nvim configuration.nix
+sudo nix-instantiate --eval -E 1
+nix-instantiate --eval -E 1\
+
+è¯»æƒ©€
+vim /etc/nixos/configuration.nix
+svim /etc/nixos/configuration.ni
+cat /etc/passwd
+cat /root/
+ls /root
+sudo ls /root
+ls -ld /home/nestos
+sudo chown -R nestos:nestos /home/nestos
+sudo chown -R nestos:Nestos /home/nestos
+sudo chown -R Nestos:nestos /home/nestos
+cat /etc/passwd | grep nestos
+which sudo
+cd ~/.config/zsh
+vim aliases.zsh
+sudo -E nixos-rebuild switch
+vim ~/.config/zsh/aliases.zsh
+source .zshrc
+pgrep tmux
+kill 9180
+svim /etc/nixos/tmux.nix
+flatpak run com.tencent.WeChat
+shutdown -h
+shutdown -h 60
+shutdown -h 1h
+shutdown --help
+shutdown -h 3600
+shutdown -h 360
+shutdown -1
+shutdown -h 1
+shutdown -h 2
+shutdown -c
+shutdown -h 120
+vim .config/fontconfig/fonts.conf
+svim /etc/nixos/steam.nix
+rm ~/.config/fontconfig/fonts.conf
+clinfo
+journalctl -b
+journalctl -b | grep amd
+journalctl -b | grep amdvul
+glxinfo | grep "OpenGL version"\
+
+lspci -vnn | grep VGA
+lspci -vnn
+lspci
+sudo systemctl status nixos
+sudo systemctl status sshd
+ip a
+ssh -h
+ssh -p 192.168.0.102
+sudo nixos-rebuild swithc
+rm bash.sh
+ssh-keygen
+vim .ssh/id_ed25519
+vim .ssh/id_ed25519.pub
+rm -rf .ssh
+ssh 192.168.0.102
+svim /etc/nixos/hardware-configuration.nix
+glxinfo 
+glxinfo | grep -i vendor
+vulkaninfo
+ls /etc/nixos
+nix-collect-garbage --delete-unused\
+
+sudo nix-collect-garbage --delete-unused\
+
+hx
+vim
+nvim -v
+nvim -V1 -v
+micro
+nix run github:clash-verge-rev/clash-verge-rev
+sudo systemctl enable clash
+nix-env -iA nixos.clash-nyanpasu
+sudo su
+nix -h
+nix --help
+nix-env --help
+nix-env --uninstall clash-nyanpasu
+s
+fastfetch
+cd ~/.local/share/
+cd fcitx5
+cd rime
+vim double_pinyin_lingyue.schema.yaml
+lsblk
+mkfs.ext4 /dev/sdc
+nix-shell -p androidenv.androidPkgs_9_0.platform-tools
+cd lime_eea_global_images_V12.5.10.0.RJQEUXM_20221102.0000.00_11.0_eea
+vim flash_all.sh
+adb sideload ob6.1_V12.5.10.0.RJQEUXM_R9T-LIME_11.0.zip
+fastboot flash ./TWRP.img
+fastboot flash recovery ./TWRP.img
+adb sideload OB6.1_V12.5.10.0.RJQEUXM_R9T-LIME_11.0.zip
+./lime_eea_global_images_V12.5.10.0.RJQEUXM_20221102.0000.00_11.0_eea/flash_all.sh
+adb sideload OB9.1_V12.5.10.0.RJQEUXM_R9T-LIME_11.0.zip
+fastboot flash recovery ./lime_eea_global_images_V12.5.10.0.RJQEUXM_20221102.0000.00_11.0_eea/images/recovery.img
+./lime_images_V14.0.2.0.SJQCNXM_20230301.0000.00_12.0_cn/flash_all.sh
+fastboot flash recovery ./recovery-redmi_Note9_4G-3.4.2b-10.0-b6.img
+adb sideload RiverUI_Redmi\ 9T\(Lime\)Stable_.zip
+adb sideload Telegram\ Desktop/Repacked_Vendor_12.5.6.0_CN.zip
+adb sideload Telegram\ Desktop/OrangeFox-R12.1_3-Hotfix-Unofficial-chime.zip
+adb sideload Telegram\ Desktop/Havoc-OS-v4.25-20231225-chime-Unofficial-0044.zip
+adb shell "settings put global captive_portal_http_url http://connect.rom.miui.com/generate_204";Âƒ€\
+\
+adb shell "settings put global captive_portal_https_url https://connect.rom.miui.com/generate_204"; ä½ƒ¼è€ƒ¥ï¼ƒºä¹±æƒ½ƒ€éƒ½ƒ²å¹´ https://www.bilibili.com/read/cv16146843/ åƒ§ºå¤ƒ¤ï¼ƒºbilibili
+adb shell "settings put global captive_portal_http_url http://connect.rom.miui.com/generate_204";Âƒ€\
+\
+adb shell "settings put global captive_portal_https_url https://connect.rom.miui.com/generate_204";
+adb shell "settings put global captive_portal_http_url http://connect.rom.miui.com/generate_204";Âƒ€\
+\
+adb shell "settings put global captive_portal_https_url https://connect.rom.miui.com/generate_204"
+adb shell "settings put global captive_portal_http_url http://connect.rom.miui.com/generate_204"Âƒ€\
+\
+adb shell "settings put global captive_portal_https_url https://connect.rom.miui.com/generate_204"
+adb shell settings put global ntp_server ntp1.aliyun.com
+adb kill-server
+adb uninstall com.drdisagree.iconify
+adb wait-for-device shell magisk --remove-modules
+adb shell magisk --remove-modules
+fastboot flash bootloader
+fastboot reboot bootloader
+./sunstone_images_OS1.0.2.0.UMQCNXM_14.0/flash_all_except_data_storage.sh
+adb sideload ./lineagevanilla8_6.zip
+fastboot flash boot_b ./boot.img
+fastboot flash boot_a ./boot.img
+fastboot reboot recovery
+fastboot flash metadata ./metadata.img
+fastboot flash vbmeta_system_a ./images/vbmeta_system.img 
+fastboot flash vbmeta_system_a ./vbmeta_system.img 
+fastboot flash vbmeta_system_b ./vbmeta_system.img 
+fastboot erase userdata
+fastboot flash userdata.img ./userdata.img
+fastboot flash userdata ./userdata.img
+fastboot erase cache
+fastboot erase data
+cd 
+cd sunstone_images_OS1.0.2.0.UMQCNXM_14.0
+./flash_all.sh
+vim ~/.config/zsh/zshrc
+source ~/.zshrc
+adb sideload 
+adb sideload OrangeFox-Unofficial-stone.zip
+fastboot flash boot_b ./recovery.img
+adb shell
+adb sideload lineagevanilla8_6.zip
+rm lineagevanilla8_6.zip
+fastboot flash ./twrp-3.7.0-12-2-moonstone.img
+adb sideload Magisk-v27.0.zip
+adb sideload MAGISK_LiteGapps_Core_arm64_14.0_v3.0.0.1_unofficial_HyperOS.zip
+fastboot flash boot_a ./sunstone_images_OS1.0.2.0.UMQCNXM_14.0/images/boot.img
+fastboot flash boot_b ./sunstone_images_OS1.0.2.0.UMQCNXM_14.0/images/boot.img
+fastboot set_active b
+adb
+adb reboot
+adb shell recovery --wipe_data
+adb devices
+adb reboot fastboot
+fastboot -w reboot
+fastboot flash boot_b magisk_patched-27000_0iVcX.img
+fastboot flash boot_a ./twrp-3.7.0-12-2-moonstone.img
+fastboot flash boot_b ./twrp-3.7.0-12-2-moonstone.img
+fastboot
+adb sideload ./OrangeFox-Unofficial-stone.zip
+fastboot flash boot_b ./twrp-3.7.0-sunstone.img
+fastboot erase boot
+fastboot flash boot_a ./recovery.img
+fastboot devices
+fastboot flash hyp_a ./sunstone_images_OS1.0.2.0.UMQCNXM_14.0/images/hyp.mbn
+fastboot reboot
+./sunstone_images_OS1.0.2.0.UMQCNXM_14.0/flash_all.sh
+fastboot flash modem_b ./sunstone_images_OS1.0.2.0.UMQCNXM_14.0/images/NON-HLOS.bin
+fastboot flash boot_a ./twrp-3.7.0-sunstone.img
+./sunstone_images_OS1.0.2.0.UMQCNXM_14.0/flash_all_lock.sh
+lsblk 
+sudo mkfs.ext4 /dev/sdc
+adb shell /system/bin/device_config put activity_manager max_phantom_processes 2147483647
+adb shell /system/bin/device_config set_sync_disabled_for_tests persistent
+adb shell /system/bin/dumpsys activity settings | findstr max_phantom_processes
+wine
+adb shell /system/bin/dumpsys activity settings 2147483647
+git clone https://gitlab.com/zanc/overlays.git
+cd edge
+rm boot.img
+rm MAGISK_LiteGapps_Core_arm64_14.0_v3.0.0.1_unofficial_HyperOS.zip
+rm Magisk-v27.0.zip
+rm magisk_patched-27000_0iVcX.img
+rm OrangeFox-Unofficial-stone.zip
+rm MiFlash2020-3-14-0.rar
+rm recovery.img
+rm recovery-redmi_Note9_4G-3.4.2b-10.0-b6.img
+rm RisingOS-3.1-RELEASE-20240530-Gapps-COMMUNITY-stone-ota.zip
+rm sunstone_images_OS1.0.2.0.UMQCNXM_14.0
+rm -r sunstone_images_OS1.0.2.0.UMQCNXM_14.0
+cd .config
+cd yazi
+cd .
+cd dotfiles
+cd config
+cp yazi ~/.config
+cp yazi ~/.config -r
+yazi
+cd overlays
+vim flake.nix
+nixos-rebuild switch
+systemctl status home-manager-nestos.service
+sudo -u barroco nix-env -iE 'p: {}'
+sudo -u nestos nix-env -iE 'p: {}'
+home-manager switch -b backup
+home-manager uninstall
+svim /etc/nixos/flake.
+svim /etc/nixos/flake.nix
+reboot
+ra
+nix flake new example -t github:nix-community/home-manager#nixos
+nvim
+home-manager news
+sudo cp ~/.config/nvim /etc/nixos/config
+sudo cp ~/.config/nvim /etc/nixos/config -r
+home-manager switch
+svim /etc/nixos/home.nix
+tmux source-file
+GLFW_IM_MODULE=fcitx kitty
+GLFW_IM_MODULE=fcitx5 kitty
+GLFW_IM_MODULE=ibus kitty
+cd /etc/nixos
+svim config
+svim configuration.nix
+sudo nix-collect-garbage -d
+tmux source
+tmmux
+tmux new-window -n test
+tmux split-window -b
+tmux split-window -f
+tmux split-window -Z
+fcitx5 -d
+fcitx5 -d &
+vim ~/.local/share/fcitx5/rime/double_pinyin_lingyue.schema.yaml
+fcitx5 -h
+fcitx5 -r
+fcitx5 -r &
+cp .tmux dotfiles
+cd od
+cd dot
+git add ./.tmux
+fish
+vim .tmux
+tmux -h
+tmux help
+tmux --help
+tmux 
+cd Downloads
+py webuis/character_manager/webui.py
+export http://127.0.0.1:7890
+export http_proxy = http://127.0.0.1:7890
+export http_proxy=http://127.0.0.1:7890
+export http_proxy="http://127.0.0.1:7890"
+export https_proxy="https://127.0.0.1:7890"
+export https_proxy="https://127.0.0.1:9097"
+export http_proxy="http://127.0.0.1:9097"
+svim /etc/nix/nix.conf
+sudo nano /etc/nix/nix.conf
+sudo nixos-rebuild switch --option extra-substituters 'https://cache.nixos.org https://127.0.0.1:7890'
+sh ./install
+sh <(curl https://mirrors.tuna.tsinghua.edu.cn/nix/latest/install)
+sudo nixos-rebuild switch --option extra-substituters 'https://cache.nixos.org https://mirrors.tuna.tsinghua.edu.cn/nix'
+sudo nixos-rebuild switch --option extra-substituters 'https://cache.nixos.org https://mirrors.tuna.tsinghua.edu.cn/nix-channels/store'
+sudo nixos-rebuild switch --option extra-substituters 'https://mirrors.tuna.tsinghua.edu.cn/nix-channels/store'
+cd miHoYo-Inference
+py
+vim ~/.tmux
+tmux source .tmux
+tmux source ~/.tmux
+cd ..
+ls
+cd clash-verge-rev-1.7.5
+nix-build
+python
+tmux
+cd
+nix-env -iA nixpkgs.clash\
+
+ping google.com
+ping youtube.com
+ping https://cache.nixos.org/
+ping cache.nixos.org/
+ping 127.0.0.1:7890
+export http_proxy="http://127.0.0.1:7890"\
+export https_proxy="https://127.0.0.1:7890"\
+
+export http_proxy="http://127.0.0.1:7890"\
+export https_proxy="http://127.0.0.1:7890"\
+
+export http_proxy="socks5://127.0.0.1:7891"\
+export https_proxy="socks5://127.0.0.1:7891"\
+
+ping bilibili.com
+ping cache.nixos.org
+nix-shell -p proxychains-ng
+sudo nix-channel --add https://mirrors.tuna.tsinghua.edu.cn/nix-channels/nixos-unstable nixos\
+sudo nix-channel --update
+svim /etc/nixos/configuration.nix
+sudo nixos-rebuild switch --option substituters 'https://mirrors.tuna.tsinghua.edu.cn/nix-channels/store'
+sudo nixos-rebuild switch
+curl cip.cc
+exit
+: 1723908694:0;curl cip.cc
+: 1723908765:0;export https_proxy=http://127.0.0.1:1080;export http_proxy=http://127.0.0.1:1080;export all_proxy=socks5://127.0.0.1:1080
+: 1723908766:0;curl cip.cc
+: 1723908774:0;sudo nixos-rebuild switch
+: 1723908791:0;curl cip.cc
+: 1723908794:0;sudo nixos-rebuild switch
+: 1723908812:0;ping google.com
+: 1723908863:0;export https_proxy=http://127.0.0.1:1081;export http_proxy=http://127.0.0.1:1081;export all_proxy=socks5://127.0.0.1:1080
+: 1723908864:0;ping google.com
+: 1723908885:0;curl cip.cc
+: 1723908942:0;ping google.com
+: 1723908952:0;sudo nixos-rebuild switch
+: 1723908972:0;curl -I https://www.google.com
+: 1723908996:0;sudo nixos-rebuild switch
+: 1723909108:0;curl -I https://cache.nixos.org
+: 1723909113:0;sudo nixos-rebuild switch
+: 1723909141:0;ping cache.nixos.org
+: 1723909325:0;sudo nixos-rebuild switch
+: 1723909450:0;nix-channel --add https://mirrors.ustc.edu.cn/nix-channels/nixpkgs-unstable nixpkgs\
+nix-channel --update
+: 1723909497:0;sudo nixos-rebuild switch --option substituters 'https://mirrors.ustc.edu.cn/nix-channels/store'
+: 1723909528:0;python
+: 1723909535:0;svim /etc/nixos/configuration.nix
+: 1723909555:0;sudo nixos-rebuild switch --option substituters 'https://mirrors.ustc.edu.cn/nix-channels/store'
+: 1723909642:0;svim /etc/nixos/configuration.nix
+: 1723909652:0;sudo nixos-rebuild switch --option substituters 'https://mirrors.ustc.edu.cn/nix-channels/store'
+: 1723909673:0;nix-build --no-out-link --show-trace\
+
+: 1723909683:0;sudo nixos-rebuild switch
+: 1723909706:0;svim /etc/nixos/configuration.nix
+: 1723909720:0;sudo nixos-rebuild switch
+: 1723909780:0;sudo nixos-rebuild switch --option substituters 'https://mirrors.ustc.edu.cn/nix-channels/store'
+: 1723911340:0;svim /etc/nixos/configuration.nix
+: 1723911375:0;sudo nixos-rebuild switch --option substituters 'https://mirrors.ustc.edu.cn/nix-channels/store'
+: 1723911423:0;sudo nixos-rebuild switch
+: 1723911477:0;sudo nixos-rebuild switch --option substituters 'https://mirrors.ustc.edu.cn/nix-channels/store'
+: 1723911789:0;nix-build --no-out-link --show-trace\
+
+: 1723911793:0;curl -I https://cache.nixos.org
+: 1723911799:0;curl -I https://www.google.com
+: 1723911809:0;export https_proxy=http://127.0.0.1:1080;export http_proxy=http://127.0.0.1:1080;export all_proxy=socks5://127.0.0.1:1080
+: 1723911814:0;sudo nixos-rebuild switch --option substituters 'https://mirrors.ustc.edu.cn/nix-channels/store'
+: 1723912136:0;sudo nixos-rebuild switch
+: 1723912533:0;ls
+: 1723912535:0;cd Downloads
+: 1723912536:0;ls
+: 1723912539:0;cd miHoYo-Inference
+: 1723912543:0;ls
+: 1723912564:0;/run/current-system/sw/bin/git
+: 1723912567:0;ls
+: 1723912570:0;py webuis/character_manager/webui.py
+: 1723912958:0;svim /etc/nixos/configuration.nix
+: 1723912985:0;sudo nixos-rebuild switch
+: 1723913400:0;svim /etc/nixos/configuration.nix
+: 1723913437:0;svim /etc/nixos/home.nix
+: 1723913452:0;home-manager switch
+: 1723913534:0;clash-verge -v
+: 1723913548:0;nix-env -iA nixos.clash-verge-rev
+: 1723913594:0;nix flake update
+: 1723913604:0;cd /etc/nixos
+: 1723913605:0;nix flake update
+: 1723913700:0;sudo nix flake update
+: 1723913997:0;sudo nixos-rebuild switch --flake
+: 1723914001:0;sudo nixos-rebuild switch
+: 1723915940:0;tmux source ~/.tmux
+: 1723915951:0;sudo nixos-rebuild switch
+: 1723915957:0;sudo nixos-rebuild switch --option substituters 'https://mirrors.ustc.edu.cn/nix-channels/store'
+: 1723915982:0;cd /nix/store/2zvb2vfajl0d2hwkym6dr081cfjs46q9-clash-verge-rev-1.7.5
+: 1723915983:0;s
+: 1723915984:0;ls
+: 1723915986:0;cd lib
+: 1723915986:0;ls
+: 1723915988:0;cd clash-verge
+: 1723915988:0;ls
+: 1723915990:0;cd resources
+: 1723915990:0;ls
+: 1723915992:0;./install-service
+: 1723916156:0;sudo nix-collect-garbage -d
+: 1723916202:0;sudo nixos-rebuild switch --option substituters 'https://mirrors.ustc.edu.cn/nix-channels/store'
+: 1723917147:0;svim /etc/nixos/configuration.nix
+: 1723917250:0;sudo nixos-rebuild switch
+: 1723917404:0;nix-tree
+: 1723917432:0;nix-store -I
+: 1723917785:0;nix-env --uninstall nixos.python312Packages.conda
+: 1723917796:0;nix-env --uninstall python312Packages.conda
+: 1723917807:0;sudo nixos-rebuild switch
+: 1723917867:0;nix-env --uninstall jupyter
+: 1723917878:0;sudo nix-env --uninstall jupyter
+: 1723917908:0;sudo rm -rf /nix/store/*jupyter*
+: 1723918053:0;sudo nixos-version
+: 1723918163:0;nix-env -q 
+: 1723918176:0;sudo nix-store --gc
+: 1723918210:0;sudo nixos-rebuild switch
+: 1723918218:0;sudo nixos-rebuild switch --option substituters 'https://mirrors.ustc.edu.cn/nix-channels/store'
+: 1723918263:0;svim /etc/nixos/configuration.nix
+: 1723918282:0;svim /etc/nixos/flake.nix
+: 1723918292:0;sudo nixos-rebuild switch --option substituters 'https://mirrors.ustc.edu.cn/nix-channels/store'
+: 1723918334:0;svim /etc/nixos/flake.nix
+: 1723918401:0;sudo nixos-rebuild switch --option substituters 'https://mirrors.ustc.edu.cn/nix-channels/store'
+: 1723919434:0;sudo nix-store --gc
+: 1723919602:0;svim /etc/nixos/flake.nix
+: 1723919626:0;svim /etc/nixos/configuration.nix
+: 1723919727:0;sudo nixos-rebuild switch --option substituters 'https://mirrors.ustc.edu.cn/nix-channels/store'
+: 1723919734:0;svim /etc/nixos/configuration.nix
+: 1723919738:0;svim /etc/nixos/flake.nix
+: 1723919750:0;sudo nixos-rebuild switch --option substituters 'https://mirrors.ustc.edu.cn/nix-channels/store'
+: 1723920698:0;svim /etc/nixos/configuration.nix
+: 1723920712:0;sudo nixos-rebuild switch --option substituters 'https://mirrors.ustc.edu.cn/nix-channels/store'
+: 1723920732:0;sudo nix-env -p /nix/var/nix/profiles/system --delete-generations old\
+
+: 1723921023:0;sudo nix-store --gc\
+sudo nix-collect-garbage -d\
+
+: 1723921042:0;sudo nixos-rebuild switch --upgrade && sudo nix-collect-garbage -d\
+
+: 1723921449:0;sudo nixos-rebuild switch --flake
+: 1723921455:0;sudo nixos-rebuild switch
+: 1723921462:0;sudo nix flake update
+: 1723921489:0;sudo nixos-rebuild switch
+: 1723921499:0;vim configuration.nix
+: 1723921513:0;svim configuration.nix
+: 1723921530:0;sudo nixos-rebuild switch
+: 1723921533:0;svim configuration.nix
+: 1723921545:0;sudo nixos-rebuild switch
+: 1723921566:0;svim ./hardware-configuration.nix
+: 1723921587:0;sudo nixos-rebuild switch
+: 1723921623:0;sudo nix-store --gc\
+sudo nix-collect-garbage -d\
+
+: 1723921632:0;sudo nixos-rebuild switch
+: 1723921652:0;cd
+: 1723921654:0;ls
+: 1723921655:0;ra

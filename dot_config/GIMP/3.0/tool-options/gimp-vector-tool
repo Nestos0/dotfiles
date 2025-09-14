@@ -1,0 +1,11 @@
+# GIMP gimp-vector-tool options
+
+(foreground
+    (color "HSVA float" 16 "\0\0\0\0\0\0\0\0\0\0\200\77\0\0\200\77" 0))
+(brush "剪贴板蒙版")
+(dynamics "Pressure Size")
+(pattern "剪贴板图像 副本")
+(gradient "前景到背景（RGB）")
+(palette "China")
+
+# end of gimp-vector-tool options

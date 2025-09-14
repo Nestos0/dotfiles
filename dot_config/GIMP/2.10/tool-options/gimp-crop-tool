@@ -1,0 +1,8 @@
+# GIMP gimp-crop-tool options
+
+(aspect-denominator 1200)
+(aspect-numerator 781)
+(foreground (color-rgb 1 1 1))
+(pattern "剪贴板图像")
+
+# end of gimp-crop-tool options
